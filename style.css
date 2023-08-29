@@ -1,0 +1,258 @@
+/* Banner Section start */
+.banner{
+    background-color: #ec9cad38;
+    display: flex;
+}
+.w-half{
+    width: 50%;
+}
+.banner-img{
+    width: 535px;
+    height: 650px;
+    margin-top: 30px;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+.banner-text h1{
+    font-size: xx-large;
+}
+.shop-btn{
+    background-color: #E55473;
+    text-decoration: none;
+    height: 54px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Banner Section end */
+
+/* Featured Flowers section start */
+.featured{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.featured-img{
+    height: 300px;
+    width: 200px;
+}
+.featured-flowers{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+.featured-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-img-1{
+    width:350px;
+    height: 400px;
+    background-color: #d394a1a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 50% 50% 10px 10px;
+
+}
+.featured-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-img-2{
+    width:350px;
+    height: 400px;
+    background-color: #80babda2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 50% 50% 10px 10px;
+
+}
+.featured-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-img-3{
+    width:350px;
+    height: 400px;
+    background-color: #aad18360;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 50% 50% 10px 10px;
+
+}
+/* Featured Flowers section end */
+
+
+/* Services section start */
+.services-div{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    background-color: #d6cbcb8f;
+    width: 1300px;
+    height: 300px;
+    margin: 40px 0 40px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly
+}
+.service{
+    text-align: center;
+}
+/* Services section end */
+
+
+/* Hot Deals section start */
+
+.hot-deals{
+    background-color: #ec9cad38;
+    display: flex;
+}
+.hot-deals-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hot-deals-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.spn-color{
+    color: #E55473;
+}
+/* Hot Deals section end */
+
+/* Instagram section start */
+.instagram-div{
+    margin: 40px 0 40px 0; 
+    display: flex;
+    flex-direction: column;
+}
+.instagram-text{
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+}
+.instagram-img img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+/* Instagram section end */
+
+/* Latest section start */
+.latest-div{
+    display: flex;
+    justify-content: center;
+}
+.latest{
+    background-image: url('./images/Rectangle\ 9.png');
+    height: 400px;
+    width: 1400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.subscribe{
+    display: flex;
+}
+.subscribe input{
+    height: 54px;
+    width: 600px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+/* Latest section end */
+
+/* Extra Section Start */
+.extra-div{
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.extra-text{
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.extra-form{
+    display: flex;
+    border-radius: 10px;
+    width: 1400px;
+}
+.container {
+    position: relative; /* Required for positioning the pseudo-element */
+    width: 60%;
+    padding: 20px;
+    background-image: url('./images/pngwing\ 6.png');
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.extra-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input{
+    width: 50%;
+    height: 30px;
+}
+
+button {
+    background-color: #E55473;
+    width: 30%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Extra Section end */
+
+/* Footer Start */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+/* Footer end */
